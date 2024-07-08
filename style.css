@@ -1,0 +1,67 @@
+body{
+    background: white;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+button{
+    color: grey;
+    background-color: pink;
+    border-color: pink;
+    margin: 5px;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 7px;
+    border-radius: 10px;
+
+}
+.row{
+    text-align: center;
+    
+}
+
+.card{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    cursor: pointer;
+    
+}
+
+.card:hover{
+    box-shadow: inset 0px 0px 0px 2px rgb(11, 51, 87);
+    box-sizing: border-box;
+}
+
+
+.green{
+    background-color: darkgreen;
+}
+
+.blue{
+    background-color: lightseagreen;
+}
+
+.pink{
+    background-color: crimson;
+}
+
+.purple{
+    background-color: blueviolet;
+}
+
+.yellow{
+    background-color: gold;
+}
+
+.grey{
+    background-color: darkslategray;
+}
+
+.color-hidden{
+    background-color: papayawhip;
+}
