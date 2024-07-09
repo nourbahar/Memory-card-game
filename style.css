@@ -1,11 +1,34 @@
 body{
     background: white;
     display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
+
+.row{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: aliceblue;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.card:hover{
+    box-shadow: inset 0px 0px 0px 2px rgb(11, 51, 87);
+    box-sizing: border-box;
+}
+
+
 
 button{
     color: grey;
@@ -16,26 +39,7 @@ button{
     font-family: 'Times New Roman', Times, serif;
     padding: 7px;
     border-radius: 10px;
-
 }
-.row{
-    text-align: center;
-    
-}
-
-.card{
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    background-color: aliceblue;
-    cursor: pointer;
-}
-
-.card:hover{
-    box-shadow: inset 0px 0px 0px 2px rgb(11, 51, 87);
-    box-sizing: border-box;
-}
-
 
 .green{
     background-color: darkgreen;
