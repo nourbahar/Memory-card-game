@@ -18,6 +18,7 @@
 
  /*------------------------ functions------------------------*/
 
+
  function cardClicked(event) {
      const currentCard = event.currentTarget;
      if (clickedCard === null || clickedCard !== currentCard) {
@@ -28,22 +29,27 @@
              if (clickedCard.classList.value === currentCard.classList.value) {
                  // If colors match, increment the matched cards counter
                  matchedCards++;
-                 console.log('Matched!');
+                 //console.log('Matched!');
 
                  // Check if the player has won
                  if (matchedCards === CachedCard().length / 2) {
-                     display.textContent = 'Congratulations! You won!';
+                    display.textContent = 'Congratulations! You won!';
+                    
+                  
                  }
 
                  clickedCard = null; // Reset the clicked card
              } else {
                  // If colors don't match, decrement the tries remaining
                  triesRemaining--;
-                 triesRemainingDisplay.textContent = `Tries Remaining: ${triesRemaining}`;
+                 triesRemainingDisplay.textContent = `Chances Remaining: ${triesRemaining}`;
 
                  // If the player has no tries left, display the "You lost" message
                  if (triesRemaining === 0) {
                      display.textContent = 'Sorry, you lost. Try again!';
+                     
+
+                     
                      clickedCard = null; // Reset the clicked card
                      setTimeout(resetGame, 3000); // Reset the game after 3 seconds
                  } else {
@@ -58,7 +64,7 @@
                          if (cardToHide2 !== null) {
                              cardToHide2.classList.add('color-hidden');
                          }
-                         console.log('Not Matched!');
+                         //console.log('Not Matched!');
                      }, 1000);
                  }
              }
@@ -77,8 +83,13 @@
      triesRemaining = 3;
      triesRemainingDisplay.textContent = `Tries Remaining: ${triesRemaining}`;
      display.textContent = '';
+	
  }
- triesRemainingDisplay.textContent = `Tries Remaining: ${triesRemaining}`;
+
+
+ //triesRemainingDisplay.textContent = `Tries Remaining: ${triesRemaining}`;
+
+
  /*----------------------------- Event Listeners -----------------------------*/
  CachedCard().forEach(card => {
      card.addEventListener('click', cardClicked);
@@ -86,3 +97,5 @@
 
  resetButton.addEventListener('click', resetGame);
 
+
+ 

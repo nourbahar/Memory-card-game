@@ -1,10 +1,14 @@
 body{
     background: white;
+    background-image: url('/img/bck.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -30,17 +34,26 @@ body{
 
 
 
-button{
-    color: grey;
-    background-color: pink;
-    border-color: pink;
-    margin: 5px;
-    font-size: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 7px;
-    border-radius: 10px;
+button,.home,.p,.h{
+    background-color: #a256ff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
+
+.ygreen{
+	background-color: chartreuse;
+}
+.maron{
+	background-color: rgb(151, 24, 22);
+}
 .green{
     background-color: darkgreen;
 }
@@ -65,6 +78,34 @@ button{
     background-color: darkslategray;
 }
 
+.orange{
+    background-color: rgb(236, 129, 29);
+}
+
+.black{
+    background-color: rgb(8, 21, 21);
+}
+
+.darkgreen{
+    background-color: rgb(28, 69, 35);
+}
+
+.darkpink{
+    background-color: rgb(139, 15, 65);
+}
 .color-hidden{
     background-color: papayawhip;
 }
+
+
+
+@media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+
+    .level-button {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }
