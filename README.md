@@ -14,7 +14,7 @@ You have a limited number of tries to match all the cards. If you run out of tri
 
 
 ## Attributions
-
+The background image used in this game  was sourced from [Vecteezy](https://www.vecteezy.com/vector-art/27202364-vector-pastel-memphis-blog-banner-template) .
 
 ## Technologies Used
 * HTML
