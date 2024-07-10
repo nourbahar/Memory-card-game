@@ -6,7 +6,7 @@
 The Memory Game is a classic card-matching game where players must find all the matching card pairs by flipping over and remembering the locations of the cards. The objective is to match all the cards with the fewest number of tries.
 
 ### Getting Started
- You can play the Memory Game by visiting the [live demo].
+ You can play the Memory Game by visiting the [live demo](https://nourbahar.github.io/Memory-card-game/index.html) .
 
 1. To get started, simply click on a card to reveal its color.
 2. Try to find the matching card by flipping over another card. 
