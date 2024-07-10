@@ -22,7 +22,7 @@ body{
     display: inline-block;
     width: 80px;
     height: 80px;
-    background-color: rgb(219, 200, 217);
+    background-color: rgb(215, 151, 209);
     cursor: pointer;
     margin: 3px;
 }
@@ -47,7 +47,15 @@ button,.home,.p,.h{
     transition: background-color 0.3s ease;
 }
 
-
+.container {
+   
+  background-color: rgba(255, 255, 255, 0.856);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 100px;
+  
+}
 .ygreen{
 	background-color: chartreuse;
 }
