@@ -1,6 +1,6 @@
 body{
     background: white;
-    background-image: url('/img/bck.jpg');
+    background-image: url('./img/bck.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@ body{
     display: inline-block;
     width: 80px;
     height: 80px;
-    background-color: aliceblue;
+    background-color: rgb(219, 200, 217);
     cursor: pointer;
     margin: 3px;
 }
