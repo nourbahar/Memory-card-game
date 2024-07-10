@@ -5,12 +5,16 @@
 ## Game Description
 The Memory Game is a classic card-matching game where players must find all the matching card pairs by flipping over and remembering the locations of the cards. The objective is to match all the cards with the fewest number of tries.
 
-Getting Started
-You can play the Memory Game by visiting the live demo.
+### Getting Started
+> You can play the Memory Game by visiting the [live demo].
 
-To get started, simply click on a card to reveal its color. Try to find the matching card by flipping over another card. If the colors match, the cards will remain revealed. If they don't match, the cards will flip back over.
-
-You have a limited number of tries to match all the cards. If you run out of tries, you lose the game. Click the "Reset Game" button to start a new round.
+1. To get started, simply click on a card to reveal its color.
+2. Try to find the matching card by flipping over another card. 
+3. If the colors match, the cards will remain revealed. 
+4. If they don't match, the cards will flip back over.
+5. You have a limited number of tries to match all the cards. 
+6. If you run out of tries, you lose the game.
+7. Click the "Reset Game" button to start a new round.
 
 
 ## Attributions
