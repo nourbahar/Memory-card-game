@@ -98,14 +98,38 @@ button,.home,.p,.h{
 }
 
 
-
-@media (max-width: 768px) {
-    h1 {
-      font-size: 28px;
+@media (max-width: 1200px) {
+    .card {
+      width: 60px;
+      height: 60px;
     }
-
-    .level-button {
-      font-size: 16px;
+  
+    button, .home, .p, .h {
+      font-size: 14px;
       padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 50px;
+      height: 50px;
+    }
+  
+    button, .home, .p, .h {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 40px;
+      height: 40px;
+    }
+  
+    button, .home, .p, .h {
+      font-size: 10px;
+      padding: 6px 12px;
     }
   }
